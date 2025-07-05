@@ -14,6 +14,9 @@ body{
 }
 
 main{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: 300px;
     height: max-content;
     min-height: 300px;
