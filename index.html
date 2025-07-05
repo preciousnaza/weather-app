@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather website</title>
+
+    <!-- CSS LINK -->
+      <link rel="stylesheet" href="weather.css">
+
+    <!-- FONT LINK -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <main>
+        <form action="">
+            <input type="text" autocomplete="off" id="valuesearch">
+            <button><ion-icon name="search"></ion-icon></button>
+        </form>
+
+
+        <section class="result">
+            <figure class="name" id="city">
+                <figcaption>London</figcaption>
+                <img src="https://flagsapi.com/GB/shiny/32.png" alt="">
+            </figure>
+
+            <figure class="temperature">
+                <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="">
+                <figcaption>
+                    <span>31</span>
+                    <sup>0</sup>
+                </figcaption>
+            </figure>
+
+            <p class="description">
+                overcasted clouds
+            </p>
+
+            <ul>
+                <li>
+                    <span>clouds</span>
+                    <ion-icon name="cloud"></ion-icon>
+                    <div class="update"><span id="cloud">98</span>%</div>
+                </li>
+
+                <li>
+                    <span>humidity</span>
+                   <ion-icon name="water"></ion-icon>
+                    <div class="update"><span id="humidity"> 55</span>%</div>
+                </li>
+
+                <li>
+                    <span>pressure</span>
+                   <ion-icon name="speedometer"></ion-icon>
+                    <div class="update"><span id="pressure">1001</span>hps</div>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+<!-- JAVASCRIPT LINK -->
+<script src="weather.js"></script>
+
+ <!-- ION-ICON LINK -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
