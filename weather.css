@@ -22,6 +22,7 @@ main{
     box-shadow: 0 30px 50px black;
     padding: 30px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 main form{
