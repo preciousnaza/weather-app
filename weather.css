@@ -63,11 +63,11 @@ main .temperature img{
 }
 
 main .temperature figcaption{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 main .description{
-    padding: 10px 0 20px;
+    padding: 10px 0 30px;
 }
 
 main ul{
@@ -81,11 +81,11 @@ main li{
     background-color: #f78a55;
     color: white;
     border-radius: 10px;
-    padding: 20px 8px;
+    padding: 20px 10px;
     background-image: linear-gradient(to bottom, transparent 50%, #0063 50%);
     font-weight: bold;
     font-size: small;
-    width: 55px;
+    width: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +93,7 @@ main li{
 
 main li ion-icon{
     font-size: 2em;
+    display: block;
     margin: 20px 0;
 }
 
